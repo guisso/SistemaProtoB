@@ -12,7 +12,7 @@ namespace SistemaProtoB
 
         [Required]
         [MaxLength(45)]
-        public String Nome? { get; set; }
+        public String? Nome { get; set; }
 
         //public Credencial Credencial { get; set; }
 
